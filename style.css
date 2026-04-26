@@ -8,6 +8,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -156,13 +157,13 @@ button:hover {
   grid-row: 1/2;
 }
 
-.style-cards h1 {
+.style_cards h1 {
   font-size: 3rem;
   padding: 1rem;
   padding-left: 0;
 }
 
-.style-cards h3 {
+.style_cards h3 {
   font-size: 1.6rem;
   line-height: 2rem;
 }
@@ -195,7 +196,7 @@ button:hover {
 }
 
 .card-3 img {
-  width: 110%;
+  width: 100%;
   grid-column: 2/2;
   grid-row: 1/2;
 }
@@ -203,7 +204,7 @@ button:hover {
 .card-3 video {
   position: relative;
   top: -87px;
-  left: 125px;
+  left: 0;
   width: 65%;
   height: 78%;
   grid-column: 2/2;
