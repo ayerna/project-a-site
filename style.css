@@ -239,6 +239,23 @@ h1 {
 }
 
 /* ==================== RESPONSIVE SCALING ==================== */
+/* BASE: Optimized for 1920x1080 (Desktop Default) */
+/* SCALING: Only for screens different from 1920x1080 */
+
+/* Large Screens (min-width: 1921px) - Maintain 1920x1080 proportions */
+@media (min-width: 1921px) {
+  body {
+    font-size: 16px;
+  }
+  
+  .navbar {
+    padding: 3% 10%;
+  }
+  
+  .navbar_netflix {
+    width: 148px;
+  }
+}
 
 /* Tablets and Medium Screens (768px - 1024px) */
 @media (max-width: 1024px) {
